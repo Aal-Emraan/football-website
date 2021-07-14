@@ -2,11 +2,19 @@
 
 *{margin: 0; padding: 0; font-family: poppins;}
 
-.container{
+.head-container{
     width: 1160px;
     margin: 0 auto;
 }
 
+.container{
+    width: 1050px;
+    margin: 82px auto;
+}
+
+p{
+    color: #6C6C6C;
+}
 /* --------------
    Header start
 --------------- */
@@ -84,10 +92,13 @@ Navigation bar end
   Head info end
   -------------- */
 
-  .container-1{
-      width: 1050px;
-      margin: 82px auto;
-  }
+  /* ------------
+    Header end
+--------------- */
+
+/* ----------------
+  Player section start
+  ----------------- */
 
   .players{
       display: grid;
@@ -113,9 +124,81 @@ Navigation bar end
     margin: 12px 0px;
 }
 
-.player p{
-    color: #6C6C6C;
+/* ----------------
+  Player section end
+  ----------------- */
+
+  /* -------------------
+    Highlights section start
+    -------------------- */
+
+.highlightInfo{
+    display: flex;
+
 }
-/* ------------
-    Header end
---------------- */
+
+.highlightInfo div{
+    width: 50%;
+}
+
+.highlight h2{
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 50px;
+}
+
+.highlightImage img{
+    width: 100%;
+}
+
+
+  /* -------------------
+    Highlights section end
+    -------------------- */
+
+/* ===================
+   footer section start
+======================= */
+
+/* .footer{
+    width: 485px;
+    margin: o auto;
+} */
+
+.footer{
+    width: 484px;
+    margin: 0 auto;
+}
+.footer img{
+    width: 100%;
+}
+
+.icons ul{
+    display: flex;
+    list-style: none;
+    width: 170px;
+    justify-content: space-between;
+    margin: 0 auto 20px;
+
+}
+
+.icons li{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: gray;
+}
+
+.footer span{
+    display: block;
+    width: 210px;
+    margin: 0 auto;
+}
+
+/* ===================
+   footer section end
+======================= */
