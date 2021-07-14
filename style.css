@@ -84,6 +84,38 @@ Navigation bar end
   Head info end
   -------------- */
 
+  .container-1{
+      width: 1050px;
+      margin: 82px auto;
+  }
+
+  .players{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 30px;
+      justify-content: center;
+  }
+
+.player{
+    width: 330px;
+    height: 470px;
+    box-shadow: 0 0 20px #d6d6d6;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.player img{
+    width: 100%;
+}
+
+.player h3{
+    font-size: 28px;
+    margin: 12px 0px;
+}
+
+.player p{
+    color: #6C6C6C;
+}
 /* ------------
     Header end
 --------------- */
