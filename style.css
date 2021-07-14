@@ -203,6 +203,7 @@ Navigation bar end
 
 .photo{
     border-radius: 10px;
+    box-sizing: border-box;
     padding: 10px;
     box-shadow: 0 0 10px rgb(128, 128, 128);
 }
@@ -228,6 +229,7 @@ Navigation bar end
  .bPlayers div{
      box-shadow: 0 0 10px rgb(175, 175, 175);
      border-radius: 5px;
+     box-sizing: border-box;
      padding: 10px;
  }
 
@@ -336,6 +338,15 @@ Navigation bar end
         margin-bottom: 150px;
     }
 
+    .photos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photo img, .bPlayers img{
+        width: 100%;
+    }
+
     .bPlayers div{
         margin-bottom: 20px;
     }
@@ -348,6 +359,12 @@ Navigation bar end
         width: 100%;
         height: auto;
         text-align: center;
+    }
+
+    .footer{
+        width: 75%;
+        margin: -50px auto 0;
+
     }
 
     
