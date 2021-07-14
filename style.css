@@ -305,6 +305,10 @@ Navigation bar end
         margin: 82px auto;
     }
 
+    .banner img{
+        margin-top: 40px;
+    }
+
     .responsive, .responsive div, .responsive h1, .responsive h2, .responsive h3{
         display: flex;
         flex-direction: column;
