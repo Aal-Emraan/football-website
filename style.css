@@ -53,13 +53,23 @@ p{
     height: 24px;
 }
 
+.menuItem li:hover{
+    color: violet;
+    transition: .3s;
+}
+
 .button{
     padding: 10px 24px;
     color: white;
     background-color: #E02C6D;
     border: none;
+    transition: .5s;
 }
 
+.button:hover{
+    background-color: rgb(18, 18, 53);
+    color: yellowgreen;
+}
 .button i{
     margin: 0 8px;
 }
@@ -87,6 +97,7 @@ Navigation bar end
  .title h1{
      font-size: 64px;
      font-weight: 700;
+     transition: 1s;
  }
 
  .banner{
@@ -101,7 +112,9 @@ Navigation bar end
  #header:hover .banner img{
      transform: scale(1.3);
  }
-
+ #header:hover .title h1{
+     color: wheat;
+ }
 
  /* --------------
   Head info end
