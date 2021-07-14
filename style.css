@@ -15,9 +15,9 @@
 p{
     color: #6C6C6C;
 }
-/* --------------
+/* ==============
    Header start
---------------- */
+================= */
 
 
 #header{
@@ -35,7 +35,14 @@ p{
     align-items: center;
     padding-top: 42px;
     height: 44px;
+}
 
+.responsiveNav{
+    display: none;
+}
+
+.fa-bars{
+    font-size: 24px;
 }
 
 .menuItem{
@@ -229,17 +236,12 @@ Navigation bar end
      height: 200px;
  }
 /* ------------------------
- best player section start
+ best player section end
  ------------------------ */
 
 /* ===================
    footer section start
 ======================= */
-
-/* .footer{
-    width: 485px;
-    margin: o auto;
-} */
 
 .footer{
     width: 484px;
@@ -280,3 +282,74 @@ Navigation bar end
 /* ===================
    footer section end
 ======================= */
+
+
+
+/* ====================
+    media query start
+ ===================== */
+
+@media only screen and (max-width: 576px) {
+
+    *{
+        margin-right: 0px;
+    }
+
+    .head-container{
+        width: 330px;
+        margin: 0px auto;
+    }
+    
+    .container{
+        width: 330px;
+        margin: 82px auto;
+    }
+
+    .responsive, .responsive div, .responsive h1, .responsive h2, .responsive h3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* text-align: center; */
+    }
+
+    .rButton{
+        padding: 7px 18px;
+        display: block;
+    }
+
+    .navBar{
+        display: none;
+    }
+    .responsiveNav{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 33px;
+    }
+    .button{
+        margin-bottom: 30px;
+    }
+    .title{
+        margin-bottom: 150px;
+    }
+
+    .bPlayers div{
+        margin-bottom: 20px;
+    }
+
+    .footer{
+        width: 100%;
+
+    }
+    .footer img, div, span{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    
+}
+
+
+/* ====================
+    media query end
+ ===================== */
